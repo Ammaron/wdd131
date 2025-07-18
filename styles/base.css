@@ -78,7 +78,7 @@ header h1 {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 100%;
     display: flex;
 }
 
@@ -90,7 +90,7 @@ main {
     border: 2px solid var(--secondaryBlack);
     border-radius: 5px;
     margin: 10px;
-    flex: auto;
+    flex: 1;
 }
 
 .card h2 {
@@ -100,6 +100,10 @@ main {
     text-align: center;
     background-color: var(--orange);
     color: black;
+}
+
+.aboutme {
+    flex: 2;
 }
 
 .aboutme .content {
@@ -112,16 +116,22 @@ main {
     flex: 1;
     padding: 5px;
     text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 .aboutme .content img {
-    max-width: 150px;
+    max-width: 50%;
     flex: none;
     margin: 5px;
 }
 
+.english {
+    flex: 1;
+}
+
 .english .content img {
-    max-width: 200px;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -129,4 +139,42 @@ main {
 .english .content {
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.english ul {
+    list-style-type: none;
+    display: flex;
+    flex: auto;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.english ul li {
+    flex: auto;
+}
+
+.english a {
+    display: block;
+    color: var(--grey);
+    text-align: center;
+    padding: 1rem;
+    font-family: roboto;
+    text-decoration: none;
+}
+
+.english a:hover {
+    text-decoration: underline;
+    color: var(--orange);
+}
+
+footer {
+    background-color: var(--secondaryBlack);
+    color: var(--grey);
+    text-align: center;
+    padding: 1rem;
+    font-family: roboto;
 }
