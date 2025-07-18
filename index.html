@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="Kirby MCDonald WDD 131 - Dynamic Web Fundamentals Home Page">
-    <meta author="Kirby McDonald">
+    <meta name="description" content="Kirby MCDonald WDD 131 - Dynamic Web Fundamentals Home Page">
+    <meta name="author" content="Kirby McDonald">
     <link rel="stylesheet" href="styles/base.css">
     <title>WDD 131 - Dynamic Web Fundamentals - Kirby McDonald</title>
     <script src="scripts/getdates.js" defer></script>
@@ -13,23 +13,56 @@
 
 <body>
     <header>
-        <span id="course-title">WDD 131 - Dynamic Web Fundamentals - Kirby McDonald</h1>
-            <nav>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/ammaron/" target="_blank">Linkedin</a></li>
-                    <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng&id=p5#p5"
-                            target="_blank">Scripture</a>
-                    </li>
-                    <li><a href="#finalproject">Final Project</a></li>
-                </ul>
-            </nav>
+        <h1 id="course-title">WDD 131 - Dynamic Web Fundamentals - Kirby McDonald</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/ammaron/" target="_blank">Linkedin</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng&id=p5#p5"
+                        target="_blank">Scripture</a>
+                </li>
+                <li><a href="#finalproject">Final Project</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <h1>Kirby McDonald</h2>
-            <section class="card"></section>
-            <section class="card"></section>
+        <div class="topsection">
+            <section class=" flex aboutme card">
+                <h2>About Me</h2>
+                <div class="content">
+                    <p>
+                        As an MBA-equipped educational leader, I bring a unique combination of classroom expertise,
+                        business
+                        strategy, and
+                        technology vision. With over five years of hands-on educational experience and proven
+                        results—including a 20% increase
+                        in program enrollment—I understand how to scale educational impact through strategic thinking.
+
+                        Currently pursuing software development to stay ahead of educational technology trends, I bridge
+                        the
+                        gap between
+                        traditional education and innovative business solutions. My bilingual expertise
+                        (English/Spanish)
+                        and leadership
+                        experience managing teachers and developing curricula positions me uniquely in the evolving
+                        EdTech
+                        landscape.
+                    </p>
+                    <img src="./images/profile.jpg">
+                </div>
+
+            </section>
+            <section class="flex english card">
+                <h2>Professional English Instruction</h2>
+                <div class="content">
+                    <p>Business-focused English language instruction from an MBA-educated, bilingual professional.
+                        Specialized programs for
+                        career advancement, business communication, and professional development.</p>
+                    <img src="./images/flyer_low.jpg">
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>

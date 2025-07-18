@@ -8,8 +8,16 @@
     --white: #ffffff;
 }
 
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
+    padding: 0;
+    font-family: roboto;
 }
 
 #course-title {
@@ -45,4 +53,80 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     color: var(--orange);
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+header h1 {
+    display: flex;
+    flex: auto;
+    color: var(--white);
+    text-align: center;
+    font-family: roboto;
+}
+
+#course-title {
+    display: block;
+    margin: 0;
+    padding: 1rem;
+}
+
+main {
+    max-width: 1200px;
+    display: flex;
+}
+
+.topsection {
+    display: flex;
+}
+
+.card {
+    border: 2px solid var(--secondaryBlack);
+    border-radius: 5px;
+    margin: 10px;
+    flex: auto;
+}
+
+.card h2 {
+    margin: 0;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    background-color: var(--orange);
+    color: black;
+}
+
+.aboutme .content {
+    display: flex;
+    padding: 3px;
+    margin: 3px;
+}
+
+.aboutme .content p {
+    flex: 1;
+    padding: 5px;
+    text-align: justify;
+}
+
+.aboutme .content img {
+    max-width: 150px;
+    flex: none;
+    margin: 5px;
+}
+
+.english .content img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.english .content {
+    align-items: center;
+    justify-content: center;
 }
