@@ -24,7 +24,7 @@ body {
     display: block;
 }
 
-nav {
+header {
     background-color: var(--secondaryBlack);
     width: 100%
 }
