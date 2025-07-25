@@ -60,22 +60,27 @@ nav a:hover {
 
 header {
     background-color: var(--secondaryBlack);
-    width: 100%;
+    max-width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: flex;
     align-items: center;
+    color: white;
 }
 
-header h1 {
+.temple {
     flex: auto;
-    color: var(--white);
+    color: white;
     font-family: roboto;
     font-size: 1.5em;
     align-items: flex-start;
 }
 
-main h1 {
+.temple.hide {
+    display: none;
+}
+
+main h2 {
     text-align: center;
 }
 
@@ -93,4 +98,22 @@ footer {
     text-align: center;
     padding: 1rem;
     font-family: roboto;
+}
+
+#hamburger-menu {
+    background: none;
+    border: none;
+    color: var(--grey);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
+#menu.show {
+    display: flex;
+    flex-direction: column;
 }
