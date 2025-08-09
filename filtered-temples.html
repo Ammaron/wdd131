@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kirby MCDonald WDD 131 - Temple Picture Album">
+    <meta name="author" content="Kirby McDonald">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="temple">Temple Album</h1>
+        <nav>
+            <button id="hamburger-menu">
+                <!-- Phosphor svg -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 256 256"
+                    style="--darkreader-inline-fill: var(--darkreader-background-000000, #000000);"
+                    data-darkreader-inline-fill="">
+                    <path
+                        d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z">
+                    </path>
+                </svg>
+            </button>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#old">Old</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#large">Large</a></li>
+                <li><a href="#small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div class="temple-grid">
+            <h3>Temple Name</h3>
+            <div class="left">
+                <p>location</p>
+                <p>dedicated</p>
+                <p>Size</p>
+            </div>
+            <div class="right">
+                <span>location</span>
+                <span>dedicated</span>
+                <span>Size</span>
+            </div>
+            <img src="imglink" alt="temple image">
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Kirby McDonald Perú</p>
+    </footer>
+</body>
+
+</html>
