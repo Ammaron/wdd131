@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --black: #000000;
+    --secondaryBlack: #14213d;
+    --orange: #fca311;
+    --grey: #e5e5e5;
+    --white: #ffffff;
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: var(--secondaryBlack);
+    display: block;
+    align-items: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex: auto;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    flex: auto;
+
+}
+
+nav a {
+    display: block;
+    color: var(--grey);
+    text-align: center;
+    padding: 1rem;
+    font-family: roboto;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: var(--orange);
+}
+
+header {
+    background-color: var(--secondaryBlack);
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.temple {
+    flex: auto;
+    color: white;
+    font-family: roboto;
+    font-size: 1.5em;
+    align-items: flex-start;
+}
+
+.temple.hide {
+    display: none;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.temple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--secondaryBlack);
+    color: var(--grey);
+    text-align: center;
+    padding: 1rem;
+    font-family: roboto;
+}
+
+#hamburger-menu {
+    background: none;
+    border: none;
+    color: var(--grey);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
+#menu.show {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+}
